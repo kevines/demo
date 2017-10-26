@@ -2,7 +2,6 @@ package com.cnwisdom.demo;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -10,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HolleApi {
 
 	@GetMapping("/")  
-    String home() {  
         return "Hello";  
     }
 }
